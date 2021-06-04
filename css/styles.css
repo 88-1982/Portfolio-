@@ -12,3 +12,19 @@ img {
   padding: 10px;
   margin: 20px;
 }
+
+div {
+  border: 15px solid darkturquoise;
+  padding: 10px;
+  margin: 20px;
+}
+
+div {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+id {
+  border: teal;
+  padding: 10px;
+}
