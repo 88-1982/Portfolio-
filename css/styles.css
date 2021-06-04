@@ -3,19 +3,12 @@ h1 {
 }
 body {
   background-color: darkslategrey;
-  background-image: image-set(Seattle Skyline);
 }
-div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+
 img {
   float: right;
   width: 300px;
   border: 15px solid darkturquoise;
-  padding: 50px;
+  padding: 10px;
   margin: 20px;
 }
