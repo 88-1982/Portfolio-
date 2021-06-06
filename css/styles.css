@@ -3,23 +3,52 @@ h1 {
 }
 body {
   background-color: darkslategrey;
+  font-family: fantasy;
 }
 
-div {
-  border: 15px solid darkturquoise;
-  padding: 10px;
+.Pablo {
+  float: left;
+  border-style: solid;
+  padding: 38px;
 }
 
-image2 {
+.bikes {
   float: right;
-  width: 300px;
-  border: 15px solid darkturquoise;
+  border-radius: 15px;
+  padding: 20px;
+  border-style: groove;
 }
 
 .important {
   color: ghostwhite;
 }
 
-.image3 {
+.image {
+  float: right;
+  margin-right: 20px;
+}
+
+.p-tag {
+  margin: 12px;
+  border: 2px solid rgb(2, 2, 2);
+  padding: 4px;
+  background-color: paleturquoise;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+.training {
+  float: right;
+  margin: 18px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+  box-sizing: content-box;
+}
+.work {
+  float: middle;
+}
+.kids {
+  border-style: groove;
   float: right;
 }
