@@ -30,6 +30,14 @@ body {
   float: right;
   border-radius: 15px;
 }
+.hobbies {
+  margin: 12px;
+  padding: 4px;
+  background-color: paleturquoise;
+  box-sizing: border-box;
+  font-family: fantasy;
+  font-size: larger;
+}
 
 .important {
   color: ghostwhite;
@@ -42,12 +50,11 @@ body {
 
 .p-tag {
   margin: 12px;
-  border: 4px solid rgb(2, 2, 2);
   padding: 4px;
   background-color: paleturquoise;
   box-sizing: border-box;
   font-family: fantasy;
-  font-size: larger;
+  font-size: 25px;
 }
 
 .training {
@@ -57,7 +64,10 @@ body {
   background-color: powderblue;
   box-sizing: content-box;
   font-family: fantasy;
-  font-size: larger;
+  font-size: 25px;
+}
+.gym {
+  margin-right: 20px;
 }
 .work {
   float: middle;
