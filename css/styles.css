@@ -7,16 +7,28 @@ body {
 }
 
 .Pablo {
-  float: left;
-  border-style: solid;
+  border-style: groove;
   padding: 38px;
+  border-radius: 15px;
+}
+.Pablo-image {
+  float: left;
+  margin-right: 15px;
+  border-radius: 15px;
 }
 
 .bikes {
-  float: right;
+  /* float: right; */
   border-radius: 15px;
   padding: 20px;
   border-style: groove;
+}
+.bike-image {
+  border-radius: 15px;
+}
+.massive {
+  float: right;
+  border-radius: 15px;
 }
 
 .important {
@@ -24,13 +36,13 @@ body {
 }
 
 .image {
-  float: right;
+  /* float: right; */
   margin-right: 20px;
 }
 
 .p-tag {
   margin: 12px;
-  border: 2px solid rgb(2, 2, 2);
+  border: 4px solid rgb(2, 2, 2);
   padding: 4px;
   background-color: paleturquoise;
   box-sizing: border-box;
@@ -39,19 +51,40 @@ body {
 }
 
 .training {
-  float: right;
   margin: 18px;
-  border: 2px solid green;
+  border: 4px solid rgb(0, 0, 0);
   padding: 4px;
-  background-color: orange;
+  background-color: powderblue;
   box-sizing: content-box;
+  font-family: fantasy;
+  font-size: larger;
 }
 .work {
   float: middle;
 }
 .kids {
-  border-style: groove;
   float: right;
-  padding: 20px;
+  margin-right: 15px;
   border-radius: 15px;
+}
+.coding {
+  margin: 18px;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 4px;
+  background-color: powderblue;
+  box-sizing: content-box;
+  font-family: fantasy;
+  font-size: larger;
+}
+.reason {
+  margin: 18px;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 4px;
+  background-color: powderblue;
+  box-sizing: content-box;
+  font-family: fantasy;
+  font-size: larger;
+}
+.clear {
+  clear: both;
 }
