@@ -35,6 +35,7 @@ body {
   background-color: paleturquoise;
   box-sizing: border-box;
   font-family: fantasy;
+  font-size: larger;
 }
 
 .training {
@@ -51,4 +52,6 @@ body {
 .kids {
   border-style: groove;
   float: right;
+  padding: 20px;
+  border-radius: 15px;
 }
